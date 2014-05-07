@@ -1,5 +1,6 @@
 <?php
 class Oferta{
+  private $cod;
   private $usuario;
   private $item;
   private $descricao;
