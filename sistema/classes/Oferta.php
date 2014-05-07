@@ -1,5 +1,6 @@
 <?php
 class Oferta{
+  private $cod;  
   private $usuario;
   private $item;
   private $descricao;
@@ -7,8 +8,15 @@ class Oferta{
   public function getUsuario() {
       return $this->usuario;
   }
+  public function getCod() {
+      return $this->cod;
+  }
 
-  public function getItem() {
+  public function setCod($cod) {
+      $this->cod = $cod;
+  }
+
+    public function getItem() {
       return $this->item;
   }
 
