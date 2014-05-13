@@ -1,16 +1,18 @@
 <?php
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 /**
  * Description of Proposta
  *
  * @author Anderson
  */
 class Proposta {
-    //put your code here
+    private $usuario;
+    private $oferta;
+    private $desejo;
+    
+    
+    public function __construct($usuario, $oferta) {
+        $this->Usuario = $usuario;
+        $this->Oferta = $oferta;
+    }
 }
