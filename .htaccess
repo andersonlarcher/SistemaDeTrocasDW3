@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteBase /SistemaDeTrocasDW3
+
+RewriteRule \.(gif|jpg|png|js|css)$ - [L] 
+RewriteRule ^index.php - [L]
+RewriteRule ^(.*)/(.*)\.html index.php?controlador=$1&acao=$2 [L,QSA]

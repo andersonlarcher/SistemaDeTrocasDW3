@@ -7,7 +7,7 @@
     </head>
     <body>
         <h1>Cadastra Oferta</h1>
-        <form action="" method="post">
+        <form action="../controller/ofertaController.php" method="post">
             <label>Nome</label>
             <input type="text" name="usuario">
             <label>Item</label>

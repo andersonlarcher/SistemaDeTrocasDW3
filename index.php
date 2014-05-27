@@ -1,16 +1,5 @@
 <?php
-    $view = "./sistema/view/";
-;?>
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title></title>
-    </head>
-    <body>
-        <a href="<?= $view ?>cadastraOferta.php">Cadastro Oferta</a>
-        <?php
-            
-        ?>
-    </body>
-</html>
+
+require_once './sistema/Router.php';
+$router = new Router();
+$router->route();

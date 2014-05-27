@@ -10,6 +10,8 @@ class Usuario {
     private $nome;
     private $email;
     private $tel;
+    private $login;
+    private $senha;
     
     public function getCod() {
         return $this->cod;
@@ -27,6 +29,14 @@ class Usuario {
         return $this->tel;
     }
 
+    public function getLogin() {
+        return $this->login;
+    }
+    
+    public function getSenha() {
+        return $this->senha;
+    }
+    
     public function setCod($cod) {
         $this->cod = $cod;
     }
@@ -43,5 +53,12 @@ class Usuario {
         $this->tel = $tel;
     }
 
+     public function setLogin($login) {
+        $this->login = $login;
+    }
+    
+     public function setSenha($senha) {
+        $this->senha = $senha;
+    }
 
 }
