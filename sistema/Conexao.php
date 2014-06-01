@@ -11,5 +11,4 @@ class Conexao {
         }
         return self::$db;
     }
-    
 }
